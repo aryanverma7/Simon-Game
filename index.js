@@ -11,7 +11,7 @@ function nextSequence(){
     gamePat.push(randomCol);
     console.log(randomCol);
     nextSound(randomCol);
-    $('#'+randomCol).fadeOut(100).fadeIn(100);
+    $('#'+randomCol).fadeOut(250).fadeIn(250);
 }
 $('.btn').click(function(){
     var user=$(this).attr('id');
